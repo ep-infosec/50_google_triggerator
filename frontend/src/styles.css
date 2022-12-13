@@ -1,0 +1,35 @@
+/*@import "~bootstrap/dist/css/bootstrap.min.css";*/
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.full-width {
+  width: 100%;
+}
+
+.footer {
+  /* position: absolute;
+  bottom: 0; */
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}
+.footer > .container {
+  text-align: center;
+}
+
+.alert-dark {
+  background-color: rgb(85, 85, 85);
+  color: white;
+}
+
+/* Workaround for enabling scrolling in MatDialogs */
+.mat-dialog-container {
+  overflow-y: auto;
+  height: initial !important;
+  padding: 0;
+}
+/* alternative method is below, but it also creates scrolling in all select dropdowns 
+.cdk-overlay-pane {
+  overflow-y: auto;
+} */

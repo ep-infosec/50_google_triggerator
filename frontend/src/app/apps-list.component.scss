@@ -1,0 +1,20 @@
+.mat-table {
+  width: 100%;
+}
+
+.editable-table .mat-row:hover:not(.invalid) {
+  cursor: pointer;
+}
+.mat-row:hover {
+  background-color: rgb(70, 70, 70);
+}
+
+th.mat-header-cell, td.mat-cell {
+  padding-right: 5px;
+}
+// mat-row.remove-background {
+//   background: none ;
+// }
+.mat-column-actions {
+  white-space:nowrap;
+}

@@ -1,0 +1,15 @@
+<app-navbar></app-navbar>
+<main class="container">
+  <router-outlet></router-outlet>
+  <app-progress-spinner [backdropEnabled]="true" [positionGloballyCenter]="true" [displayProgressSpinner]="loading">
+  </app-progress-spinner>
+  <!--
+  <cm-growler position="top-right" timeout="2000"></cm-growler>
+  <cm-modal></cm-modal>
+  -->
+</main>
+<footer class="footer mt-auto">
+  <div class="container">
+    <span class="text-muted">Display & Video 360 Triggerator, &copy;&nbsp;Google Professional Services, {{currentYear()}}.</span>
+  </div>
+</footer>
